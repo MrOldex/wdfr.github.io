@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confidentialité et conditions — Wardogs France</title>
+<style>
+  :root {
+    --bg: #f7f7f9; --card: #ffffff; --text: #1d1f24; --muted: #5c6370; --line: #e3e5ea;
+    --accent: #5865f2; --mark: #fff3c4; --mark-text: #6b5300;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111318; --card: #171a21; --text: #e6e8ec; --muted: #9aa1ad; --line: #272b35;
+      --accent: #8a93ff; --mark: #3d3412; --mark-text: #f5d76e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); line-height: 1.65;
+         font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 820px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { margin-bottom: 28px; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 6px; }
+  .meta { color: var(--muted); font-size: .95rem; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+            padding: 22px 24px; margin: 16px 0; }
+  h2 { font-size: 1.15rem; margin: 0 0 10px; }
+  h3 { font-size: 1rem; margin: 18px 0 6px; }
+  p { margin: 8px 0; }
+  ul { margin: 8px 0; padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); }
+  mark { background: var(--mark); color: var(--mark-text); padding: 0 4px; border-radius: 4px; }
+  .table { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 9px 10px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; white-space: nowrap; }
+  footer { color: var(--muted); font-size: .9rem; text-align: center; margin-top: 28px; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+  nav a { text-decoration: none; border: 1px solid var(--line); background: var(--card); border-radius: 999px;
+          padding: 6px 14px; font-size: .95rem; }
+  .part { scroll-margin-top: 16px; font-size: 1.5rem; margin: 40px 0 4px; }
+  .part + .meta { margin-bottom: 8px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Wardogs France</h1>
+    <div class="meta">Bot Discord · Dernière mise à jour : 3 octobre 2026</div>
+    <nav>
+      <a href="#confidentialite">🔒 Politique de confidentialité</a>
+      <a href="#conditions">📜 Conditions d'utilisation</a>
+    </nav>
+  </header>
+
+  <h2 class="part" id="confidentialite">🔒 Politique de confidentialité</h2>
+
+  <section>
+    <h2>1. Qui sommes-nous ?</h2>
+    <p>Le bot <strong>Wardogs France</strong> (ci-après « le bot ») est un bot Discord privé utilisé sur le serveur
+      Wardogs France pour la modération, les statistiques, les niveaux, les tickets et d'autres outils communautaires.</p>
+    <p>Il est géré par <strong>Mr.Oldex</strong>, responsable du traitement des données décrites ci-dessous.
+      Contact : message privé sur Discord à <strong>Mr.Oldex</strong>.</p>
+    <p>Cette politique explique quelles données le bot collecte, pourquoi, combien de temps elles sont gardées
+      et quels sont tes droits.</p>
+  </section>
+
+  <section>
+    <h2>2. Données collectées</h2>
+    <p>Le bot ne collecte que des données liées à ton activité <strong>sur les serveurs où il est présent</strong>.
+      Il ne lit pas tes messages privés (sauf ceux que tu lui envoies), ne connaît pas ton adresse e-mail,
+      ton adresse IP ni ton mot de passe, et n'a accès à aucune donnée en dehors de Discord.</p>
+
+    <h3>Identité Discord</h3>
+    <ul>
+      <li>Identifiant Discord, nom d'utilisateur, nom affiché, surnom sur le serveur et lien de l'avatar ;</li>
+      <li>historique des changements de surnom, de nom et d'avatar ;</li>
+      <li>date de création du compte (pour la protection contre les comptes récents).</li>
+    </ul>
+
+    <h3>Activité sur le serveur (historique détaillé)</h3>
+    <ul>
+      <li><strong>Messages</strong> : date, salon, identifiant du message, <strong>texte du message</strong>,
+        noms et liens des pièces jointes, stickers, message auquel tu réponds ;</li>
+      <li><strong>messages modifiés et supprimés</strong>, avec leur ancien et leur nouveau texte ;</li>
+      <li>réactions ajoutées et retirées ;</li>
+      <li><strong>vocal</strong> : arrivée, départ et changement de salon vocal, durée passée, activation du micro coupé,
+        du casque coupé, du partage d'écran et de la caméra (le bot n'écoute <strong>jamais</strong> et n'enregistre
+        <strong>aucun</strong> son ni image) ;</li>
+      <li>arrivée et départ du serveur, rôles reçus ou retirés, exclusions temporaires, bannissements, boosts ;</li>
+      <li>commandes du bot utilisées.</li>
+    </ul>
+
+    <h3>Statistiques</h3>
+    <ul>
+      <li>Nombre de messages et minutes passées en vocal, <strong>par jour</strong> et par membre ;</li>
+      <li>statistiques globales du serveur (messages par jour et par heure, activité par salon, nombre de membres).</li>
+    </ul>
+
+    <h3>Fonctionnalités que tu utilises</h3>
+    <ul>
+      <li><strong>Niveaux</strong> : points d'expérience et niveau ;</li>
+      <li><strong>modération</strong> : avertissements et sanctions (raison, date, modérateur), sanctions automatiques
+        de la protection anti-spam ;</li>
+      <li><strong>vérification</strong> : date à laquelle tu as été vérifié ;</li>
+      <li><strong>tickets</strong> : réponses au formulaire d'ouverture, et à la fermeture une
+        <strong>transcription</strong> (copie des messages du ticket), qui t'est aussi envoyée en message privé ;</li>
+      <li><strong>codes amis Steam</strong> : le code ami ou l'identifiant Steam que tu enregistres et, si tu le donnes,
+        ton pseudo Steam. Ils sont publiés sur le serveur et consultables avec la commande <code>/id</code> ;</li>
+      <li><strong>salons vocaux temporaires</strong> : propriétaire du salon, tant qu'il existe.</li>
+    </ul>
+
+    <h3>Données non conservées</h3>
+    <p>Certaines commandes de l'équipe (par exemple <code>/compter</code>, qui compte les participants d'un événement)
+      lisent les messages d'un salon sur le moment, <strong>sans les enregistrer</strong>.</p>
+  </section>
+
+  <section>
+    <h2>3. Pourquoi ces données sont utilisées</h2>
+    <ul>
+      <li><strong>Modération et sécurité</strong> : retrouver un message supprimé ou modifié en cas de problème,
+        lutter contre le spam, les raids et les comptes malveillants, suivre les sanctions ;</li>
+      <li><strong>fonctionnement des services</strong> : niveaux, tickets, vérification, codes amis, salons temporaires ;</li>
+      <li><strong>statistiques</strong> : suivre l'activité du serveur (graphiques, membres actifs, temps en vocal).</li>
+    </ul>
+    <p>Base légale (RGPD) : l'<strong>intérêt légitime</strong> de l'équipe du serveur à le modérer, le sécuriser et
+      l'animer. Pour les codes amis Steam et les tickets, c'est toi qui choisis de fournir ces informations.</p>
+    <p>Les données ne sont <strong>jamais vendues</strong>, ni utilisées pour de la publicité, ni pour entraîner
+      une intelligence artificielle.</p>
+  </section>
+
+  <section>
+    <h2>4. Qui peut voir ces données</h2>
+    <ul>
+      <li>Le responsable du bot, via un panneau de contrôle privé qui n'est pas accessible sur Internet ;</li>
+      <li>l'équipe de modération du serveur, pour certaines informations publiées dans des salons réservés au staff
+        (journaux de modération, messages supprimés ou modifiés, transcriptions de tickets) ;</li>
+      <li>les membres du serveur, uniquement pour ce qui est public par nature : niveau et classement,
+        codes amis Steam que tu as choisi de partager.</li>
+    </ul>
+    <p>Les données sont stockées en France, sur un serveur loué chez
+      <a href="https://miridiahost.fr/" rel="noopener">MiridiaHost</a> (Aubervilliers),
+      et transitent par Discord (voir la <a href="https://discord.com/privacy" rel="noopener">politique de confidentialité
+      de Discord</a>). Elles ne sont partagées avec aucun autre tiers.</p>
+  </section>
+
+  <section>
+    <h2>5. Durée de conservation</h2>
+    <div class="table">
+      <table>
+        <tr><th>Données</th><th>Conservation</th></tr>
+        <tr><td>Historique détaillé (messages et leur texte, modifications, suppressions, réactions, vocal, rôles…)</td>
+            <td><strong>30 jours</strong>, puis suppression automatique</td></tr>
+        <tr><td>Journaux techniques du bot</td><td>Remplacés automatiquement au fil de l'eau (quelques Mo au maximum)</td></tr>
+        <tr><td>Statistiques par jour (nombre de messages, minutes en vocal)</td>
+            <td>Tant que le bot est utilisé sur le serveur, ou jusqu'à ta demande de suppression</td></tr>
+        <tr><td>Niveaux, avertissements, nom et avatar connus</td>
+            <td>Tant que le bot est utilisé sur le serveur, ou jusqu'à leur suppression par l'équipe ou à ta demande</td></tr>
+        <tr><td>Tickets et transcriptions</td><td>Tant que le bot est utilisé sur le serveur, ou jusqu'à ta demande de suppression</td></tr>
+        <tr><td>Code ami Steam</td><td>Jusqu'à ce que tu le retires (bouton « Retirer mon code ») ou à ta demande</td></tr>
+        <tr><td>Salon vocal temporaire</td><td>Supprimé dès que le salon est supprimé</td></tr>
+      </table>
+    </div>
+    <p class="muted">Les messages publiés dans les salons Discord (journaux du staff, codes amis, transcriptions envoyées)
+      restent sur Discord tant qu'ils ne sont pas supprimés.</p>
+  </section>
+
+  <section>
+    <h2>6. Sécurité</h2>
+    <p>Le panneau de contrôle du bot n'est accessible que depuis l'ordinateur du responsable. Les échanges entre
+      ce panneau et le serveur du bot sont chiffrés. Seul le responsable a accès aux données stockées.</p>
+  </section>
+
+  <section>
+    <h2>7. Tes droits</h2>
+    <p>Conformément au RGPD, tu peux à tout moment :</p>
+    <ul>
+      <li><strong>accéder</strong> aux données que le bot a sur toi ;</li>
+      <li>les faire <strong>corriger</strong> ou <strong>supprimer</strong> ;</li>
+      <li>t'<strong>opposer</strong> à leur utilisation.</li>
+    </ul>
+    <p>Pour cela, envoie un message privé sur Discord à <strong>Mr.Oldex</strong>.
+      Une réponse t'est donnée sous un mois au maximum.</p>
+    <p>Quitter le serveur arrête toute nouvelle collecte. L'historique détaillé déjà enregistré est ensuite
+      supprimé automatiquement au bout de 30 jours.</p>
+    <p>Si tu estimes que tes droits ne sont pas respectés, tu peux adresser une réclamation à la
+      <a href="https://www.cnil.fr/fr/plaintes" rel="noopener">CNIL</a>.</p>
+  </section>
+
+  <section>
+    <h2>8. Mineurs</h2>
+    <p>Le bot est soumis aux règles de Discord, qui interdit son service aux personnes de moins de 13 ans
+      (ou l'âge minimum fixé dans ton pays).</p>
+  </section>
+
+  <section>
+    <h2>9. Modifications</h2>
+    <p>Cette politique peut être mise à jour si le bot évolue. La date en haut de la page indique la dernière version.
+      En cas de changement important, une annonce sera faite sur le serveur.</p>
+  </section>
+
+  <h2 class="part" id="conditions">📜 Conditions d'utilisation</h2>
+
+  <section>
+    <h2>1. Acceptation</h2>
+    <p>Le bot <strong>Wardogs France</strong> est fourni par <strong>Mr.Oldex</strong> pour le serveur Discord Wardogs France.
+      En utilisant le bot (commandes, boutons, formulaires) ou en étant membre d'un serveur où il est présent,
+      tu acceptes ces conditions d'utilisation ainsi que la <a href="#confidentialite">politique de confidentialité</a>.</p>
+    <p>Tu dois aussi respecter les <a href="https://discord.com/terms" rel="noopener">conditions d'utilisation de Discord</a>
+      et ses <a href="https://discord.com/guidelines" rel="noopener">règles de communauté</a>.</p>
+  </section>
+
+  <section>
+    <h2>2. Le service</h2>
+    <p>Le bot propose des outils de modération, de protection, de niveaux, de statistiques, de vérification, de tickets,
+      de salons vocaux temporaires, de commandes personnalisées et de partage de codes amis Steam.
+      Les fonctionnalités disponibles sont choisies par l'équipe du serveur et peuvent changer à tout moment.</p>
+    <p>Le bot est <strong>gratuit</strong> et privé : il n'est pas destiné à être ajouté sur d'autres serveurs.</p>
+  </section>
+
+  <section>
+    <h2>3. Utilisation autorisée</h2>
+    <p>En utilisant le bot, tu t'engages à <strong>ne pas</strong> :</p>
+    <ul>
+      <li>l'utiliser pour harceler, insulter, menacer ou nuire à d'autres personnes ;</li>
+      <li>spammer ses commandes ou ses boutons, ou chercher à le surcharger ;</li>
+      <li>exploiter un bug ou tenter de contourner ses protections, ses permissions ou ses sanctions ;</li>
+      <li>fournir des informations fausses ou qui ne t'appartiennent pas (par exemple le code ami Steam de quelqu'un d'autre) ;</li>
+      <li>publier par son intermédiaire (tickets, formulaires) du contenu illégal, haineux ou à caractère sexuel ;</li>
+      <li>tenter d'accéder à ses données, à son hébergement ou à son panneau de contrôle.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Modération</h2>
+    <p>Le bot peut appliquer automatiquement des mesures de modération (suppression de messages, avertissements,
+      exclusion temporaire, expulsion ou bannissement) selon les règles fixées par l'équipe du serveur.
+      L'équipe de modération peut aussi l'utiliser pour sanctionner un comportement contraire aux règles du serveur.</p>
+    <p>En cas de non-respect de ces conditions, l'accès au bot ou au serveur peut t'être retiré, sans préavis.
+      Pour contester une sanction, ouvre un ticket ou contacte l'équipe du serveur.</p>
+  </section>
+
+  <section>
+    <h2>5. Contenu que tu fournis</h2>
+    <p>Tu restes responsable de ce que tu envoies via le bot (messages de ticket, réponses aux formulaires,
+      code ami et pseudo Steam). En le partageant, tu acceptes qu'il soit affiché sur le serveur dans le cadre
+      de la fonctionnalité utilisée, par exemple ton code ami dans le salon prévu ou avec <code>/id</code>.
+      Tu peux retirer ton code ami à tout moment avec le bouton prévu.</p>
+  </section>
+
+  <section>
+    <h2>6. Disponibilité et responsabilité</h2>
+    <p>Le bot est fourni <strong>« tel quel »</strong>, sans garantie de fonctionnement continu ou sans erreur.
+      Il peut être interrompu, modifié ou arrêté à tout moment, notamment pour maintenance.</p>
+    <p>Dans les limites permises par la loi, Mr.Oldex ne peut être tenu responsable des dommages liés à l'utilisation
+      ou à l'indisponibilité du bot, ni des contenus publiés par les utilisateurs.</p>
+  </section>
+
+  <section>
+    <h2>7. Services tiers</h2>
+    <p>Le bot fonctionne grâce à Discord et affiche des liens vers des profils Steam. Il n'est ni affilié,
+      ni soutenu par Discord Inc. ou Valve Corporation (Steam). L'utilisation de ces services est soumise
+      à leurs propres conditions.</p>
+  </section>
+
+  <section>
+    <h2>8. Modifications et droit applicable</h2>
+    <p>Ces conditions peuvent être mises à jour si le bot évolue. La date en haut de la page indique la dernière version.
+      Continuer à utiliser le bot après une modification vaut acceptation des nouvelles conditions.</p>
+    <p>Ces conditions sont soumises au droit français.</p>
+  </section>
+
+  <section>
+    <h2>9. Contact</h2>
+    <p>Pour toute question sur ces conditions, envoie un message privé sur Discord à <strong>Mr.Oldex</strong>.</p>
+  </section>
+
+  <footer>Wardogs France · Politique de confidentialité et conditions d'utilisation</footer>
+</main>
+</body>
+</html>
